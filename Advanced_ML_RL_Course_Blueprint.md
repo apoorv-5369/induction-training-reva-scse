@@ -56,11 +56,11 @@ submission
 
 ------------------------------------------------------------------------
 
-# Activity Map
+# Activity Map (#commment: only design an activity which can be graded, also consider autograding)
 
 ## Weeks 1--2 (Activities 1--6)
 
-1.  Why RL? Sequential decision-making discussion.
+1.  Why RL? Sequential decision-making discussion. 
 2.  Identify State--Action--Reward in real systems.
 3.  Install Gymnasium and run CartPole.
 4.  AI critique: Compare ChatGPT's RL explanation with Sutton & Barto.
