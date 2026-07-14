@@ -58,19 +58,19 @@ submission
 
 # Activity Map (#commment: only design an activity which can be graded, also consider autograding)
 
-## Weeks 1--2 (Activities 1--6)
+## Module 1: Foundations of Reinforcement Learning (Weeks 1–2)
 
-1.  Why RL? Sequential decision-making discussion. 
-2.  Identify State--Action--Reward in real systems.
-3.  Install Gymnasium and run CartPole.
-4.  AI critique: Compare ChatGPT's RL explanation with Sutton & Barto.
-5.  Reflection quiz.
-6.  GitHub setup and first repository.
+1.  #### Is Reinforcement Learning the Right Paradigm?; Driving Question: Why can't supervised or unsupervised learning solve every sequential decision problem?; Student Evidence: A comparative concept map, A one-page justification; Bloom Level: Analyze; Assessment: Rubric-based(conceptual accuracy, quality of reasoning, clarity of presentation); Feedback: Addressing Misconceptions, Highlighting strength in reasoning, suggesting improvements.
+2.  #### Modeling the World as an RL Problem; Driving Question: Can every real-world problem be represented as a reinforcement learning problem?; Student Evidence: A formal RL representation of one real-world problem (e.g., autonomous driving, elevator scheduling, recommendation systems, traffic management), A one-page explanation justifying the choice of states, actions, rewards, and episode termination conditions; Bloom Level: Apply; Assessment: Rubric-based(Correct Indentification of RL components, Justification of modelling decisions, presentation Quality); Feedback: Modelling Assumptions and completeness.
+3.  #### Investigating an Unknown Agent; Driving Question: Can we infer an agent's objective only by observing its behaviour?; Student Evidence: Observation log of at least 100 episodes of CartPole, Learning Journal describing behaviour patterns, A hypothesis explaining the agent;s objective and expected reward structure; Bloom Level: Analyze; Assessment: Rubric-based(Quality of observations, logical hypothesis formulation, evidence supporting conclusions); Feedback: Quality of observations, encouragement to refine their hypotheses
+4.  #### Evaluating AI as a learning partner; Driving Question: Can we trust AI-generated explanations of Reinforcement Learning?; Student Evidence: An Annotated comparision between an AI-generated explanation and Sutton & Barto's explanation, Identification of at least five conceptual similarities or differences, Recommendation regarding the reliability of the AI explanation; Bloom Level: Evaluate; Assessment: Rubric-based(Identification of conceptual differences, Critical evaluation, Quality of Recommendation); Feedback: Common misconceptions identified by AI
+5.  #### Constructing the Reinforcement Learning Knowledge Network; Driving Question: How are the fundamental concepts of Reinforcement learning connected?; Student Evidence: A concept network linking major RL concepts, Short explanations for every relationship shown; Bloom Level: Analyze; Assessment: Rubric-based(Completeness, Accuracy of Relationships, Visual Clarity); Feedback: Improving concept maps after peer discussion
+6.  #### Builiding a Research Learning Portifolio; Driving Question: How can evidence collected throughout the semester demonstrate learning?; Student Evidence: Github respository, Portfolio template, reflection describing personal learning goals for the semester; Bloom Level: Create; Assessment: Rubric-based(Portfolio organization, Documentation quality, Reflection); Feedback: Repository Structure and suggestion for maintaining a professional learning portfolio
 
-## Weeks 3--4 (Activities 7--12)
+## Module 2: Markov Decision Processes (Weeks 3–4)
 
-7.  Draw an MDP from a traffic-light problem.
-8.  Compute value functions manually.
+7.  #### Is the world really Markovian?; Driving Question: Do real-world decision-making problems satisfy the Markov Property?; Student Evidence: Analysis of two real-world systems, written argument discussing whether the Markov Property holds; Bloom Level: Analyze; Assessment: Rubric-based(Correct application of the Markov Property, Logical argumentation, clarity); Feedback: Alternative viewpoints and encourage revision
+8.  #### Can policy values be computed without programming?; Driving Motivation: Can policy values be computed without programming?
 9.  Bellman equation worksheet.
 10. Implement policy evaluation.
 11. AI-generated Bellman equations: detect mistakes.
